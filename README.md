@@ -8,7 +8,7 @@ VGG-подобной CNN на CIFAR-10:
 - depthwise separable convolution;
 - deformable convolution, DCNv1.
 
-Презентация: [`deliverables/special_convolutions_cifar10_final.pptx`](deliverables/special_convolutions_cifar10_final.pptx).
+Презентация: [`deliverables/special_convolutions_cifar10_v2.pptx`](deliverables/special_convolutions_cifar10_v2.pptx).
 
 ## Результаты
 
