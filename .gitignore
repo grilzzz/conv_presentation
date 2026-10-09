@@ -1,0 +1,17 @@
+# Data and virtual environments
+data/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Trained weights can be recreated from the experiment configuration
+outputs_full/checkpoints/
+*.pt
+*.pth
+
+# Local presentation and editor build products
+.codex-*/
+.chart-data-*/
+.presentation-revision/
+*.key

@@ -1,0 +1,27 @@
+{
+  "device": "mps",
+  "torch": "2.14.0",
+  "platform": "Darwin arm64",
+  "deformable_zero_offset_max_abs_error": 0.0,
+  "mac_definition": "multiply-accumulates; excludes BN, activations, pooling and DCN bilinear sampling/indexing",
+  "latency_device": "CPU on Apple M4; batch=32; per-image average",
+  "selection_protocol": "best checkpoint by validation accuracy; validation-loss tie-break; test evaluated once",
+  "config": {
+    "data_dir": "data",
+    "output_dir": "outputs_full",
+    "epochs": 50,
+    "batch_size": 128,
+    "workers": 2,
+    "train_subset": null,
+    "val_size": 5000,
+    "seed": 42,
+    "device": "auto",
+    "variants": [
+      "standard",
+      "dilated",
+      "depthwise",
+      "deformable"
+    ],
+    "resume": true
+  }
+}
